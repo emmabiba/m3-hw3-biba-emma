@@ -45,6 +45,9 @@ body nav ul li span {
 body main section h1 {
   visibility: hidden;
 }
+body p {
+  font-weight: 400;
+}
 section.banner {
   background-image: url('../img/banner-bg.png');
   background-size: cover;
@@ -82,4 +85,10 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 20px;
+}
+span.caps {
+  text-transform: uppercase;
+}
+span.red {
+  color: #ee252f;
 }
