@@ -1,0 +1,32 @@
+.background {
+  background-color: black;
+  background-image: url("../img/banner-bg.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 33%;
+}
+nav {
+  background-color: #f8df1f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+nav ul {
+  list-style: none;
+  padding: 3% 3%;
+}
+nav ul li {
+  color: black;
+  display: inline;
+  padding: 0 3%;
+}
+nav ul li span {
+  color: #ee252f;
+  text-transform: uppercase;
+}
+section #banner {
+  background-color: black;
+  background-image: url("../img/banner-bg.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 33%;
+}
