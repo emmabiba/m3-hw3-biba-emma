@@ -57,6 +57,16 @@ section.white {
 section.grey {
   background-color: #f3f3f3;
 }
+section.grey,
+section.white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section.grey .flex-item,
+section.white .flex-item {
+  padding: 5%;
+}
 button {
   font-size: 18px;
   color: #050500;
