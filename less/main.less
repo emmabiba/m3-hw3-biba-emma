@@ -52,6 +52,7 @@ section.white {
   justify-content: space-around;
   .flex-item{
     padding: 5%;
+    margin: 0 5%;
   }
 }
 
@@ -69,4 +70,15 @@ span.caps {
 
 span.red {
   color: @red;
+}
+
+@media (max-width: 945px) {
+  section.grey,
+  section.white {
+    flex-wrap: wrap;
+}
+
+#logo {
+  max-width: 100%;
+}
 }

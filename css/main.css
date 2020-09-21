@@ -73,6 +73,7 @@ section.white {
 section.grey .flex-item,
 section.white .flex-item {
   padding: 5%;
+  margin: 0 5%;
 }
 button {
   font-size: 18px;
@@ -95,4 +96,13 @@ span.caps {
 }
 span.red {
   color: #ee252f;
+}
+@media (max-width: 945px) {
+  section.grey,
+  section.white {
+    flex-wrap: wrap;
+  }
+  #logo {
+    max-width: 100%;
+  }
 }
