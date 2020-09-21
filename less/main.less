@@ -1,25 +1,51 @@
 @import "variables";
 
-
-nav{
+body {
   background-color: @yellow;
   font-family: @primary-font, sans-serif;
   font-weight: 500;
-  ul {
-    list-style: none;
-    padding: 3% 3%;
-    li {
-      color: black;
-      display: inline;
-      padding: 0 3%;
-      span {
-        color: @red;
-        text-transform: @caps;
+  nav{
+    background-color: @yellow;
+    ul {
+      list-style: none;
+      padding: 3% 3%;
+      margin: 0 0;
+      li {
+        color: black;
+        display: inline;
+        padding: 0 3%;
+        span {
+          color: @red;
+          text-transform: @caps;
+        }
+      }
+    }
+  }
+  main{
+    section {
+      h1{
+        visibility: hidden;
       }
     }
   }
 }
 
-section #banner {
-  .background();
+section.banner{
+  .banner();
+}
+
+section.white{
+  background-color: #fff;
+}
+
+section.grey{
+  background-color: @off-white;
+}
+
+button {
+  .button();
+}
+
+footer{
+  .footer();
 }

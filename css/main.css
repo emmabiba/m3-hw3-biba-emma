@@ -1,32 +1,75 @@
-.background {
-  background-color: black;
-  background-image: url("../img/banner-bg.png");
+.banner {
+  background-image: url('../img/banner-bg.png');
   background-size: cover;
   background-blend-mode: overlay;
-  opacity: 33%;
+  height: 500px;
 }
-nav {
+.button {
+  font-size: 18px;
+  color: #050500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #f8df1f;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 500;
+}
+.footer {
+  background-color: #080801;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+body {
   background-color: #f8df1f;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-nav ul {
+body nav {
+  background-color: #f8df1f;
+}
+body nav ul {
   list-style: none;
   padding: 3% 3%;
+  margin: 0 0;
 }
-nav ul li {
+body nav ul li {
   color: black;
   display: inline;
   padding: 0 3%;
 }
-nav ul li span {
+body nav ul li span {
   color: #ee252f;
   text-transform: uppercase;
 }
-section #banner {
-  background-color: black;
-  background-image: url("../img/banner-bg.png");
+body main section h1 {
+  visibility: hidden;
+}
+section.banner {
+  background-image: url('../img/banner-bg.png');
   background-size: cover;
   background-blend-mode: overlay;
-  opacity: 33%;
+  height: 500px;
+}
+section.white {
+  background-color: #fff;
+}
+section.grey {
+  background-color: #f3f3f3;
+}
+button {
+  font-size: 18px;
+  color: #050500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #f8df1f;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 500;
+}
+footer {
+  background-color: #080801;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
 }

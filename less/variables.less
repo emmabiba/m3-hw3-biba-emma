@@ -1,12 +1,32 @@
 @red: #EE252F;
 @yellow: #F8DF1F;
+@black: #080801;
+@off-white: #F3F3F3;
+
 @caps: uppercase;
 @primary-font: 'Roboto';
 
-.background {
-  background-color: black;
-  background-image: url("../img/banner-bg.png");
+.banner{
+  background-image: url('../img/banner-bg.png');
   background-size: cover;
   background-blend-mode: overlay;
-  opacity: 33%;
+  height: 500px;
+}
+
+.button{
+  font-size: 18px;
+  color: #050500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: @yellow;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: @black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
 }
