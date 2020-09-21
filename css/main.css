@@ -57,6 +57,15 @@ section.banner {
   background-position: center;
   background-blend-mode: overlay;
   height: 550px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+section.banner .flex-item {
+  padding: 20px;
+  text-align: center;
 }
 section.white {
   background-color: #fff;
