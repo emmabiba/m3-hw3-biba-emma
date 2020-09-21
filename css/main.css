@@ -1,8 +1,10 @@
 .banner {
+  background-color: #3B3838;
   background-image: url('../img/banner-bg.png');
   background-size: cover;
+  background-position: center;
   background-blend-mode: overlay;
-  height: 500px;
+  height: 550px;
 }
 .button {
   font-size: 18px;
@@ -49,10 +51,12 @@ body p {
   font-weight: 400;
 }
 section.banner {
+  background-color: #3B3838;
   background-image: url('../img/banner-bg.png');
   background-size: cover;
+  background-position: center;
   background-blend-mode: overlay;
-  height: 500px;
+  height: 550px;
 }
 section.white {
   background-color: #fff;
